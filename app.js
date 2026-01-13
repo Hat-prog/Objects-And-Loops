@@ -33,3 +33,9 @@ function battleTurn(characters) {
 }
 
 battleTurn(Characters);
+
+
+for (let i = 0; i < 10; i++) {
+    battleTurn(Characters);
+}
+
